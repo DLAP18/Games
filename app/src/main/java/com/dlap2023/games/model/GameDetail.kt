@@ -10,7 +10,7 @@ data class GameDetail(
     var image: String?,
 
     @SerializedName("long_desc")
-    var LongDesc: String?
+    var longDesc: String?
 
     //Si tenemos nombres de variables del JSON con guion medio
     //@SerializedName("official-artwork")
